@@ -9,10 +9,10 @@
     </feature>
     <name>SousVide</name>
     <description>
-        A sample Apache Cordova application that responds to the deviceready event.
+        Sous vide controller
     </description>
-    <author email="dev@cordova.apache.org" href="http://cordova.io">
-        Apache Cordova Team
+    <author email="kammo002@cougars.csusm.edu" href="http://www.adroitwebdesigns.com">
+        Brian Kammourieh
     </author>
     <content src="index.html" />
     <access origin="*" />

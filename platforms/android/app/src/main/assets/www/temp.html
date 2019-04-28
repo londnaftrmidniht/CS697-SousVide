@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+        <title>Protect Me</title>
+        <style type="text/css">
+            body {
+                background: #e8e8e8;
+                text-align: center;
+            }
+            h1 {
+                font-size: 32px;
+            }
+            .setting .label {
+                font-size: 20px;
+            }
+            .setting .value {
+                font-size: 20px;
+            }
+
+            h3 {
+                font-size: 28px;
+            }
+
+            .status {
+                font-size: 30px;
+                text-transform: uppercase;
+            }
+
+            .status.safe {
+                color: #00FF00;
+            }
+
+            .status.danger {
+                color: #FF0000;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Protect Me</h1>
+        <div id="temp" class="setting">
+            <span class="label">Oven Reading:</span>
+            <span class="value"><span>0.00</span> &deg;F</span>
+        </div>
+
+        <h3>Baby Status</h3>
+        <div class="status safe">Safe</div>
+        <div class="status danger">In Danger</div>
+    </body>
+</html>
